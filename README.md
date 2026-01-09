@@ -43,4 +43,11 @@ List item 2
 
 ## Requirements
 
-- Python 3.x
+- Python 3.8+
+- No external dependencies (uses only Python standard library)
+
+## Running Tests
+
+```bash
+pytest test_remove_markup.py -v
+```
